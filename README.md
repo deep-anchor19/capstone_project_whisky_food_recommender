@@ -14,25 +14,22 @@ We will be utilizing Machine Learning to train a model that will make recommenda
 The whisky dataset had a lot of word and alphabet based columns that had to be changed to numerical or dummified columns in order for the machine learning model to make more accurate predictions.
 
 Single Malt and Blended Whiskies:
-A - Full-bodied, sweet, pronounced sherry – with fruity, honey and spicy notes
-B - Full-bodied, sweet, pronounced sherry – with fruity, floral and malty notes, some honey and spicy notes
-C - Full-bodied, sweet, pronounced sherry – with fruity, floral, nutty, and spicy notes, some smoky notes
-
-E - Medium-bodied, medium-sweet – with fruity, honey, malty and winey notes, some smoky and spicy notes
-F - Full-bodied, sweet and malty – with fruity, spicy, and smoky notes
-
-G - Light-bodied, sweet, apéritif-style – with honey, floral, fruity and spicy notes, but rarely any smoky notes
-H - Very light-bodied, sweet, apéritif-style – with malty, fruity and floral notes
-
-I - Medium-bodied, medium-sweet, quite smoky – with some medicinal notes and spicy, fruity and nutty notes
-J - Full-bodied, dry, very smoky, pungent – with medicinal notes and some spicy, malty and fruity notes
+- A - Full-bodied, sweet, pronounced sherry – with fruity, honey and spicy notes
+- B - Full-bodied, sweet, pronounced sherry – with fruity, floral and malty notes, some honey and spicy notes
+- C - Full-bodied, sweet, pronounced sherry – with fruity, floral, nutty, and spicy notes, some smoky notes
+- E - Medium-bodied, medium-sweet – with fruity, honey, malty and winey notes, some smoky and spicy notes
+- F - Full-bodied, sweet and malty – with fruity, spicy, and smoky notes
+- G - Light-bodied, sweet, apéritif-style – with honey, floral, fruity and spicy notes, but rarely any smoky notes
+- H - Very light-bodied, sweet, apéritif-style – with malty, fruity and floral notes
+- I - Medium-bodied, medium-sweet, quite smoky – with some medicinal notes and spicy, fruity and nutty notes
+- J - Full-bodied, dry, very smoky, pungent – with medicinal notes and some spicy, malty and fruity notes
 
 Bourbons and American Whiskies:
-R0 - “No Rye” whisky with 0 rye gain (pure corn whiskies and "wheaters")
-R1 - “Low Rye” whisky of 10% or less rye grain
-R2 - “Standard Rye” whisky of 10-15% rye grain (classic bourbons)
-R3 - “High Rye” whisky of more 15% rye
-R4 - “Rye” whisky of more than 51% rye (straight rye whiskies)
+- R0 - “No Rye” whisky with 0 rye gain (pure corn whiskies and "wheaters")
+- R1 - “Low Rye” whisky of 10% or less rye grain
+- R2 - “Standard Rye” whisky of 10-15% rye grain (classic bourbons)
+- R3 - “High Rye” whisky of more 15% rye
+- R4 - “Rye” whisky of more than 51% rye (straight rye whiskies)
 
 All these clusters (A - R4) were numbered 1 - 14, and whiskies with a blank cell under the 'cluster' column were assigned a new cluster "0".
 
@@ -100,7 +97,7 @@ These basic recommendation systems have given expected results thus far.
 
 
 ## Limitations ##
-Since the majority of whiskies are from Scotland, the recommended is more likely to recommend whiskies from Scotland compared to whiskies from other regions.
+Since the majority of whiskies are from Scotland, the recommender is more likely to recommend whiskies from Scotland compared to whiskies from other regions.
 
 The food database might be inadequate as it was a self-created file based on internet research.
 
